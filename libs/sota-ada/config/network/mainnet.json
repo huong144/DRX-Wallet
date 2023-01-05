@@ -1,0 +1,6 @@
+{
+  "chainName": "Mainnet",
+  "averageBlockTime": 6000,
+  "requiredConfirmations": 10,
+  "explorerEndpoint": "https://cardanoexplorer.com/"
+}

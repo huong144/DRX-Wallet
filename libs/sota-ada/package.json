@@ -1,0 +1,27 @@
+{
+  "name": "sota-ada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ADA_NETWORK=testnet mocha --timeout 15000 -r ts-node/register ./test/testGateway.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bip39": "2.4.1",
+    "@types/lodash": "4.14.119",
+    "@types/node-fetch": "2.3.5",
+    "bip39": "2.5.0",
+    "lodash": "4.17.11",
+    "node-fetch": "2.6.0",
+    "sota-common": "../sota-common"
+  },
+  "devDependencies": {
+    "@types/chai": "4.1.7",
+    "@types/mocha": "5.2.5",
+    "chai": "4.2.0",
+    "mocha": "5.2.0"
+  }
+}

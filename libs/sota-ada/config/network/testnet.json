@@ -1,0 +1,6 @@
+{
+  "chainName": "Testnet",
+  "averageBlockTime": 6000,
+  "requiredConfirmations": 10,
+  "explorerEndpoint": "https://cardano-explorer.cardano-testnet.iohkdev.io/"
+}
